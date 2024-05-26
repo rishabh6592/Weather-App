@@ -20,8 +20,8 @@ document.getElementById('check-weather').addEventListener('click', function() {
             document.getElementById('location').textContent = data.name;
             document.getElementById('temperature').textContent = `Temperature: ${data.main.temp}°C`;
             document.getElementById('description').textContent = `Description: ${data.weather[0].description}`;
-            document.getElementById('deg').textContent = `deg: ${data.wind.deg}°`;
-            document.getElementById('Air-speed').textContent = `Air-speed: ${data.wind.speed} KM/H`;
+            document.getElementById('deg').textContent = `Degree: ${data.wind.deg}°`;
+            document.getElementById('Air-speed').textContent = `Air-speed: ${data.wind.speed} Km/h`;
         })
         .catch(error => {
             alert('City not found or you are enter wrong city name. Please try again.');
