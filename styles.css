@@ -25,7 +25,7 @@ body {
     padding: 20px;
     text-align: center;
     width: 300px;
-    height: 450px;
+    height: 430px;
     overflow: auto;
 }
 
@@ -80,14 +80,17 @@ footer{
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin-top: -1vh;
+    /* margin-top: -1vh; */
 }
 #name{
-    /* position: absolute; */
+    position: absolute;
     font-family: poppins;
     font-size: 15px;
     color: white;
-    /* top: 65%; */
+    top: 82%;
 }
-
-
+span{
+    /* color: chocolate; */
+    color: cadetblue;
+    font-weight: 900;
+}
