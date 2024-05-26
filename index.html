@@ -7,19 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Weather App</h1>
-        <div class="search-box">
-            <input type="text" id="city" placeholder="Enter city name">
-            <button id="check-weather">Check Weather</button>
+    <div class="main">
+        <div class="container">
+            <h1>Weather App</h1>
+            <div class="search-box">
+                <input type="text" id="city" placeholder="Enter city name">
+                <button id="check-weather">Check Weather</button>
+            </div>
+            <div class="weather-result">
+                <h2 id="location">Location</h2>
+                <p id="temperature">Temperature: --°C</p>
+                <p id="description">Description: --</p>
+                <p id="deg">Degree: --</p>
+                <p id="Air-speed">Air-speed: --</p>
+            </div>
         </div>
-        <div class="weather-result">
-            <h2 id="location">Location</h2>
-            <p id="temperature">Temperature: --°C</p>
-            <p id="description">Description: --</p>
-            <p id="deg">Deg: --</p>
-            <p id="Air-speed">Air-speed: --</p>
-        </div>
+        <footer>
+            <p id="name">Created with ❤️ by rishabh </p>
+        </footer>
     </div>
 
     <script src="script.js"></script>
