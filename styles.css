@@ -80,14 +80,14 @@ footer{
     align-items: center;
     justify-content: center;
     width: fit-content;
-    /* margin-top: 5vh; */
+    margin-top: -1vh;
 }
 #name{
-    position: absolute;
+    /* position: absolute; */
     font-family: poppins;
     font-size: 15px;
     color: white;
-    top: 65%;
+    /* top: 65%; */
 }
 
 
