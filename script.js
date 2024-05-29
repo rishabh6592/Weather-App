@@ -21,7 +21,7 @@ document.getElementById('check-weather').addEventListener('click', function() {
             document.getElementById('temperature').textContent = `Temperature: ${data.main.temp}°C`;
             document.getElementById('description').textContent = `Description: ${data.weather[0].description}`;
             document.getElementById('deg').textContent = `Degree: ${data.wind.deg}°`;
-            document.getElementById('Air-speed').textContent = `Air-speed: ${data.wind.speed} Km/h`;
+            document.getElementById('Wind-speed').textContent = `Wind-speed: ${data.wind.speed} Km/h`;
         })
         .catch(error => {
             alert('City not found or you are enter wrong city name. Please try again.');
@@ -29,7 +29,7 @@ document.getElementById('check-weather').addEventListener('click', function() {
             document.getElementById('temperature').textContent = 'Temperature: --°C';
             document.getElementById('description').textContent = 'Description: --';
             document.getElementById('deg').textContent = 'deg: --';
-            document.getElementById('Air-speed').textContent = 'Speed: --';
+            document.getElementById('Wind-speed').textContent = 'Speed: --';
             console.error('Error fetching the weather data:', error);
             
         });
