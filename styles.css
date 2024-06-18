@@ -80,7 +80,7 @@ footer{
     align-items: center;
     justify-content: center;
     width: fit-content;
-    font-family: montserrat;
+    /* font-family: montserrat; */
     /* margin-top: -1vh; */
 }
 #name{
