@@ -84,7 +84,8 @@ footer{
 }
 #name{
     position: absolute;
-    font-family: poppins;
+    /* font-family: poppins; */
+    font-family: montserrat;
     font-size: 15px;
     color: white;
     top: 80%;
